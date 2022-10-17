@@ -5,16 +5,16 @@ import (
 )
 
 func main() {
-	var bil int
-	var isZero bool
+	var bilangan int
+	var hasil bool
 
 	// input
 	//fmt.Print("Masukkan bilangan: ")
-	fmt.Scanln(&bil)
+	fmt.Scanln(&bilangan)
 
 	// process
-	isZero = bil == 0
+	hasil = bilangan == 0
 
 	// output
-	fmt.Println(isZero)
+	fmt.Println(hasil)
 }
